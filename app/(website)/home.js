@@ -18,15 +18,47 @@ export default function Post({ posts }) {
               />
             ))}
           </div>
-          <div className="mt-10 grid gap-10 md:grid-cols-2 lg:gap-10 xl:grid-cols-3 ">
+          <div className="mt-10 grid gap-10 md:grid-cols-4 lg:gap-10">
          
-          <img class="a" src="img/img8.jpeg"></img>
-          <img class="a" src="img/img2.jpeg"></img>
-          <img class="a" src="img/img3.jpeg"></img>
-          <img class="a" src="img/img4.jpeg"></img>
+          <div class="relative">
+            <img class="rounded shadow-xl" src="img/roofing.png"></img>
+            <a href="/extensions" className="absolute mx-auto bottom-2 bg-white right-2  w-fit
+  text-white bg-gradient-to-r from-yellow-400 via-yellow-450 to-yellow-600 hover:bg-gradient-to-br   shadow-lg shadow-yellow-500/50 dark:shadow-lg dark:shadow-yellow-800/80 font-medium text-[10px] px-1 rounded-lg text-sm px-1.5 py-0.4  text-center flex items-center">
+  <span>Show more</span>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-1">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+  </svg>
+        </a> </div>
+          <div class="relative">
+          <img class="rounded shadow-xl" src="img/extensions.png"></img>
+          <a href="/extensions" className="absolute mx-auto bottom-2 bg-white right-2  w-fit
+  text-white bg-gradient-to-r from-yellow-400 via-yellow-450 to-yellow-600 hover:bg-gradient-to-br   shadow-lg shadow-yellow-500/50 dark:shadow-lg dark:shadow-yellow-800/80 font-medium text-[10px] px-1 rounded-lg text-sm px-1.5 py-0.4  text-center flex items-center">
+  <span>Show more</span>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-1">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+  </svg>
+        </a>
+          </div>
+          <div class="relative">
+          <img class="rounded shadow-xl" src="img/tiling.png"></img>
+          <a href="/extensions" className="absolute mx-auto bottom-2 bg-white right-2  w-fit
+  text-white bg-gradient-to-r from-yellow-400 via-yellow-450 to-yellow-600 hover:bg-gradient-to-br   shadow-lg shadow-yellow-500/50 dark:shadow-lg dark:shadow-yellow-800/80 font-medium text-[10px] px-1 rounded-lg text-sm px-1.5 py-0.4  text-center flex items-center">
+  <span>Show more</span>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-1">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+  </svg>
+        </a></div>
+          <div class="relative">
+          <img class="rounded shadow-xl" src="img/electrical-work.png"></img>
+          <a href="/extensions" className="absolute mx-auto bottom-2 bg-white right-2  w-fit
+  text-white bg-gradient-to-r from-yellow-400 via-yellow-450 to-yellow-600 hover:bg-gradient-to-br   shadow-lg shadow-yellow-500/50 dark:shadow-lg dark:shadow-yellow-800/80 font-medium text-[10px] px-1 rounded-lg text-sm px-1.5 py-0.4  text-center flex items-center">
+  <span>Show more</span>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-1">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+  </svg>
+        </a> </div>
           
-          <img class="a" src="img/img6.jpeg"></img>
-          <img class="a" src="img/img7.jpeg"></img>
+        
           
           
 
@@ -35,16 +67,12 @@ export default function Post({ posts }) {
             ))}
             
           </div>
-          <div className="mt-10 flex justify-center">
           
-            <Link
-              href="/archive"
-              className="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 disabled:pointer-events-none disabled:opacity-40 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300">
-              <span>View all Posts</span>
-            </Link>
-          </div>
         </Container>
+        
+          
       )}
+     
     </>
   );
 }

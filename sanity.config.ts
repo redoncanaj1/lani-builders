@@ -35,7 +35,6 @@ export default defineConfig({
     singletonPlugin(["settings"]),
     visionTool(),
     unsplashImageAsset(),
-    table(),
     codeInput()
   ],
 

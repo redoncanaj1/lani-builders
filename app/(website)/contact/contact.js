@@ -9,6 +9,7 @@ import {
   EnvelopeIcon,
   PhoneIcon
 } from "@heroicons/react/24/outline";
+import BusinessMap from "@/components/bussiness/Business";
 export default function Contact({ settings }) {
   const {
     register,
@@ -24,7 +25,7 @@ export default function Contact({ settings }) {
   const [isSuccess, setIsSuccess] = useState(false);
   const [message, setMessage] = useState(false);
   // Please update the Access Key in the Sanity CMS - Site Congig Page
-  const apiKey = settings?.w3ckey || "YOUR_ACCESS_KEY_HERE";
+  const apiKey = settings?.w3ckey || "0cd2f07b-e2ea-4f0c-95bf-6834a30f0152";
 
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey,
@@ -67,8 +68,12 @@ export default function Contact({ settings }) {
           <div className="mt-5">
             <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
               <MapPinIcon className="w-4 h-4" />
-              <span>1734 Sanfransico, CA 93063</span>
+              <span>23 Cofton Grove, Northfield, Birmingham B31 4NP</span>
             </div>
+            <div>
+ 
+  <BusinessMap/>
+</div>
             {settings?.email && (
               <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
                 <EnvelopeIcon className="w-4 h-4" />
@@ -82,6 +87,7 @@ export default function Contact({ settings }) {
                 <PhoneIcon className="w-4 h-4" />
                 <a href={`tel:${settings.phone}`}>{settings.phone}</a>
               </div>
+              
             )}
           </div>
         </div>

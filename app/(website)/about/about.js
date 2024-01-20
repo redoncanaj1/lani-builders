@@ -35,19 +35,18 @@ export default function About({ authors, settings }) {
           );
         })}
       </div>
+      <div className="w-full m-0 p-0">
+        <div style={{ marginLeft: '-150px', marginRight: '-150px'}} >
+        <img src="/img/ContactUs1.png"  />
+        <img src="/img/ContactUs2.png"></img>
+      <img src="/img/ContactUs3.png"></img>
 
+        </div>
+      
+      
+      </div>
       <div className="prose mx-auto mt-14 text-center dark:prose-invert">
-        <p>
-          We provide real-time connectivity to enable software
-          providers and financial institutions to build integrated
-          products for their small business customers.
-        </p>
-        <p>
-          Our API infrastructure is leveraged by clients ranging from
-          lenders to corporate card providers and business forecasting
-          tools, with use cases including automatic reconciliation,
-          business dashboarding, and loan decisioning.
-        </p>
+      
         <p>
           <Link href="/contact">Get in touch</Link>
         </p>

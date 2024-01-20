@@ -7,6 +7,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}"
   ],
+  plugins: [require("daisyui")],
   darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
@@ -30,5 +31,9 @@ module.exports = {
   variants: {
     extend: {}
   },
-  plugins: [require("@tailwindcss/typography")]
+  plugins: [
+    require("daisyui"),
+    require("@tailwindcss/typography")
+  ]
+
 };

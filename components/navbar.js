@@ -24,10 +24,7 @@ export default function Navbar(props) {
   ];
 
   const rightmenu = [
-    {
-      label: "Archive",
-      href: "/archive"
-    },
+  
      {
       label: "Contact",
       href: "/contact"
@@ -44,6 +41,7 @@ export default function Navbar(props) {
         <Disclosure>
           {({ open }) => (
             <>
+           
               <div className="flex flex-wrap justify-between md:flex-nowrap md:gap-10">
                 <div className="order-1 hidden w-full flex-col items-center justify-start md:order-none md:flex md:w-auto md:flex-1 md:flex-row md:justify-end">
                   {leftmenu.map((item, index) => (
@@ -123,13 +121,7 @@ export default function Navbar(props) {
                 <div className="order-2 hidden w-full flex-col items-center justify-start md:order-none md:flex md:w-auto md:flex-1 md:flex-row">
                   {rightmenu.map((item, index) => (
                     <Fragment key={`${item.label}${index}`}>
-                      {item.children && item.children.length > 0 ? (
-                        <DropdownMenu
-                          menu={item}
-                          key={`${item.label}${index}`}
-                          items={item.children}
-                        />
-                      ) : (
+                      
                         <Link
                           href={item.href}
                           key={`${item.label}${index}`}
@@ -143,9 +135,18 @@ export default function Navbar(props) {
                             </span>
                           )}
                         </Link>
-                      )}
+                      
                     </Fragment>
                   ))}
+                   <div className="dropdown">
+                    <div tabIndex={0} role="button" className=" px-5 py-2 text-sm font-medium text-gray-600 hover:text-blue-500 dark:text-gray-400">Services</div>
+                    <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a href="/roofing">Roofing</a></li>
+                      <li><a href="/extensions">Extensions</a></li>
+                      <li><a href="/tiling">Tiling</a></li>
+                      <li><a href="/electrical-work">Electrical Work</a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <Disclosure.Panel>

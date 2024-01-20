@@ -27,12 +27,29 @@ export default async function Post({ searchParams }) {
     <>
       {posts && posts?.length === 0 && (
         <div className="flex h-40 items-center justify-center">
+          
           <span className="text-lg text-gray-500">
+            
             End of the result!
           </span>
         </div>
       )}
       <div className="mt-10 grid gap-10 md:grid-cols-2 lg:gap-10 xl:grid-cols-3">
+      <img class="a" src="img/img8.jpeg"></img>
+      <img class="a" src="img/img8.jpeg"></img>
+      <img class="a" src="img/img8.jpeg"></img>
+      <img class="a" src="img/img8.jpeg"></img>
+      <img class="a" src="img/img8.jpeg"></img>
+      <img class="a" src="img/img8.jpeg"></img>
+      <img class="a" src="img/img8.jpeg"></img>
+      <img class="a" src="img/img8.jpeg"></img>
+      <img class="a" src="img/img8.jpeg"></img>
+      <img class="a" src="img/img8.jpeg"></img>
+      <img class="a" src="img/img8.jpeg"></img>
+      <img class="a" src="img/img8.jpeg"></img>
+      <img class="a" src="img/img8.jpeg"></img>
+      <img class="a" src="img/img8.jpeg"></img>
+      
         {posts.map(post => (
           <PostList key={post._id} post={post} aspect="square" />
         ))}

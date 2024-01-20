@@ -29,8 +29,9 @@ export default function Contact({ settings }) {
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey,
     settings: {
-      from_name: "Stablo Template",
-      subject: "New Contact Message from Stablo Website"
+      from_name: "Lani Builder's",
+      subject: "New Contact Message from Lani Builder's Website"
+      
     },
     onSuccess: (msg, data) => {
       setIsSuccess(true);
@@ -45,6 +46,7 @@ export default function Contact({ settings }) {
 
   return (
     <Container>
+       
       <h1 className="mt-2 mb-3 text-3xl font-semibold tracking-tight text-center lg:leading-snug text-brand-primary lg:text-4xl dark:text-white">
         Contact
       </h1>
@@ -55,7 +57,7 @@ export default function Contact({ settings }) {
       <div className="grid my-10 md:grid-cols-2">
         <div className="my-10">
           <h2 className="text-2xl font-semibold dark:text-white">
-            Contact Stablo
+            Contact Lani Builder's
           </h2>
           <p className="max-w-sm mt-5">
             Have something to say? We are here to help. Fill up the

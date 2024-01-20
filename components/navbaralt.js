@@ -25,6 +25,7 @@ export default function NavbarAlt(props) {
       ]
     },
     {
+      
       label: "About",
       href: "/about"
     },
@@ -37,6 +38,7 @@ export default function NavbarAlt(props) {
       href: "#",
       children: [
         {
+          
           title: "Category Page",
           path: "/category/personal-growth"
         },
@@ -67,11 +69,7 @@ export default function NavbarAlt(props) {
         }
       ]
     },
-    {
-      label: "Purchase",
-      href: "https://web3templates.com/templates/stablo-minimal-blog-website-template",
-      external: true
-    }
+   
   ];
 
   return (
@@ -92,7 +90,7 @@ export default function NavbarAlt(props) {
                       />
                     ) : (
                       <span className="block text-center">
-                        Stablo
+                        Lani Builder's
                       </span>
                     )}
                   </Link>
@@ -106,8 +104,9 @@ export default function NavbarAlt(props) {
                       />
                     ) : (
                       <span className="block text-center">
-                        Stablo
+                        Lani Builder's
                       </span>
+                      
                     )}
                   </Link>
                   <Disclosure.Button

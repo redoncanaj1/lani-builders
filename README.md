@@ -42,9 +42,8 @@ Stablo is a JAMStack Blog template built with Next.js, Tailwind CSS & Sanity CMS
 | Pricing| Free|**$49**|
 | &nbsp; | [Deploy for free](https://vercel.com/new/web3templates/clone?demo-title=Stablo%20%E2%80%93%20Minimal%20Blog%20Template&demo-description=A%20minimal%20blog%20website%20template%20built%20with%20Next.js%2C%20TailwindCSS%20%26%20Sanity%20CMS%0A&demo-url=https%3A%2F%2Fstablo-template.vercel.app%2F&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F6p72KDrdJ8SjyvOBrgRbnr%2F0760db43f2cb08504a2f67601e74d986%2FCleanShot_2022-07-15_at_16.54.17.png&project-name=Stablo%20%E2%80%93%20Minimal%20Blog%20Template&repository-name=stablo-blog&repository-url=https%3A%2F%2Fgithub.com%2Fweb3templates%2Fstablo&from=templates&integration-ids=oac_hb2LITYajhRQ0i4QznmKH7gx) | [Purchase Pro](https://web3templates.com/templates/stablo-minimal-blog-website-template) |
 
-<a href="https://web3templates.com/templates/stablo-minimal-blog-website-template">
-<img width="160" alt="Upgrade to Pro" src="https://user-images.githubusercontent.com/1884712/199181300-37c2128e-d033-4145-a906-16fa5263a53b.png">
-</a>
+
+
 
 ###### Click the above button for one-click clone & deploy for this template. Read [quick start](#quick-start) guide below.
 

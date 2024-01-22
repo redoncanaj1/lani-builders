@@ -150,7 +150,7 @@ export default function Navbar(props) {
                 </div>
               </div>
               <Disclosure.Panel>
-                <div className="order-2 -ml-4 mt-4 flex w-full flex-col items-center justify-start md:hidden">
+                <div className="order-2 px-4 -ml-4 mt-4 flex w-full flex-col items-center justify-start md:hidden">
                   {mobilemenu.map((item, index) => (
                     <Fragment key={`${item.label}${index}`}>
                       {item.children && item.children.length > 0 ? (
@@ -172,6 +172,15 @@ export default function Navbar(props) {
                       )}
                     </Fragment>
                   ))}
+                 <div className="w-full text-sm font-medium text-gray-600 hover:text-blue-500 dark:text-gray-400 dropdown">
+                    <div tabIndex={0} role="button" className=" px-5 py-2 text-sm font-medium text-gray-600 hover:text-blue-500 dark:text-gray-400">Services</div>
+                    <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a href="/roofing">Roofing</a></li>
+                      <li><a href="/extensions">Extensions</a></li>
+                      <li><a href="/tiling">Tiling</a></li>
+                      <li><a href="/electrical-work">Electrical Work</a></li>
+                    </ul>
+                  </div>
                 </div>
               </Disclosure.Panel>
             </>

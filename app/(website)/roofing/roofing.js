@@ -12,13 +12,13 @@ export default function Roofing({ authors, settings }) {
       <img class=" shadow-xl" src="img/roofing1.jpeg"></img>
       <img class=" shadow-xl" src="img/roofing2.jpeg"></img>
       <img class=" shadow-xl" src="img/roofing3.jpeg"></img>
-      <img class=" shadow-xl" src="img/roofing10.jpeg"></img>
+      <img class=" shadow-xl" src="img/roofing4.jpeg"></img>
       <img class=" shadow-xl" src="img/roofing5.jpeg"></img>
       <img class=" shadow-xl" src="img/roofing6.jpeg"></img>
       <img class=" shadow-xl" src="img/roofing7.jpeg"></img>
       <img class=" shadow-xl" src="img/roofing8.jpeg"></img>
-      <img class=" shadow-xl" src="img/roofing4.jpeg"></img>
       <img class=" shadow-xl" src="img/roofing9.jpeg"></img>
+      <img class=" shadow-xl" src="img/roofing10.jpeg"></img>
       
           
       </div>

@@ -25,7 +25,6 @@ export default function Tiling({ authors, settings }) {
       <img class="shadow-xl" src="img/tiling14.jpeg"></img>
       <img class="shadow-xl" src="img/tiling15.jpeg"></img>
       <img class="shadow-xl" src="img/tiling16.jpeg"></img>
-      <img class="shadow-xl" src="img/tiling17.jpeg"></img>
           
       </div>
       

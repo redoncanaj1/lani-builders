@@ -10,20 +10,20 @@ export default function Extensions({ authors, settings }) {
       <div className="mt-10 grid gap-10 md:grid-cols-2 lg:gap-10 xl:grid-cols-3 object-cover">
 
       
-      <img class="shadow-xl" src="img/extensions4.jpeg"></img>
-      <img class="shadow-xl" src="img/extensions8.jpeg"></img>
-      <img class="shadow-xl" src="img/extensions6.jpeg"></img>
       <img class="shadow-xl" src="img/extensions1.jpeg"></img>
       <img class="shadow-xl" src="img/extensions2.jpeg"></img>
       <img class="shadow-xl" src="img/extensions3.jpeg"></img>
+      <img class="shadow-xl" src="img/extensions4.jpeg"></img>
+      <img class="shadow-xl" src="img/extensions5.jpeg"></img>
+      <img class="shadow-xl" src="img/extensions6.jpeg"></img>
       <img class="shadow-xl" src="img/extensions7.jpeg"></img>
+      <img class="shadow-xl" src="img/extensions8.jpeg"></img>
+      <img class="shadow-xl" src="img/extensions9.jpeg"></img>
       <img class="shadow-xl" src="img/extensions10.jpeg"></img>
       <img class="shadow-xl" src="img/extensions11.jpeg"></img>
       <img class="shadow-xl" src="img/extensions12.jpeg"></img>
       <img class="shadow-xl" src="img/extensions13.jpeg"></img>
       <img class="shadow-xl" src="img/extensions14.jpeg"></img>
-      <img class="shadow-xl" src="img/extensions5.jpeg"></img>
-      <img class="shadow-xl" src="img/extensions9.jpeg"></img>
           
       </div>
       

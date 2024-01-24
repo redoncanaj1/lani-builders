@@ -15,7 +15,7 @@ export default function Featured({ post, pathPrefix }) {
   return (
     <div
       className={cx(
-        "grid md:grid-cols-2 gap-5 md:gap-10 md:min-h-[calc(100vh-30vh)]"
+        "grid md:grid-cols-2 gap-5 md:gap-5 md:min-h-[calc(100vh-30vh)]"
       )}
       style={{
         backgroundColor: post?.mainImage?.ImageColor || "black"

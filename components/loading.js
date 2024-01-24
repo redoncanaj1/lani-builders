@@ -1,6 +1,6 @@
 export default function Loading() {
   return (
-    <div className="mt-10 grid gap-10 md:grid-cols-2 lg:gap-10 xl:grid-cols-3">
+    <div className="mt-10 grid gap-5 md:grid-cols-2 lg:gap-5 xl:grid-cols-3">
       {new Array(6).fill().map((item, index) => (
         // eslint-disable-next-line react/no-array-index-key
         <div key={index}>
@@ -22,7 +22,7 @@ const SkeletonImg = () => {
   `;
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
+     
       role="img"
       id="skeleton"
       aria-labelledby="loading-aria"

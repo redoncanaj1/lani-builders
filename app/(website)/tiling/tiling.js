@@ -7,7 +7,7 @@ export default function Tiling({ authors, settings }) {
       <h1 className="text-brand-primary mb-3 mt-2 text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
         Tiling
       </h1>
-      <div className="mt-10 grid gap-10 md:grid-cols-2 lg:gap-10 xl:grid-cols-3 ">
+      <div className="mt-10 grid grid-cols-2 gap-5 md:grid-cols-2 lg:gap-5 xl:grid-cols-3 ">
 
       <img class="shadow-xl" src="img/tiling1.jpeg"></img>
       <img class="shadow-xl" src="img/tiling2.jpeg"></img>

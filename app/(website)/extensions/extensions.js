@@ -7,7 +7,7 @@ export default function Extensions({ authors, settings }) {
       <h1 className="text-brand-primary mb-3 mt-2 text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
         Extension
       </h1>
-      <div className="mt-10 grid gap-10 md:grid-cols-2 lg:gap-10 xl:grid-cols-3 object-cover">
+      <div className="mt-10 grid grid-cols-2 gap-5 md:grid-cols-2 lg:gap-5 xl:grid-cols-3 object-cover">
 
       
       <img class="shadow-xl" src="img/extensions1.jpeg"></img>

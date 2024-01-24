@@ -16,7 +16,13 @@ export default function Layout(props) {
   return (
     <>
       <Head>
+      <link rel="icon" href="/img/logo18x10.png" sizes="18x10" type="image/png" />
+      <link rel="icon" href="/img/logo32x18.png" sizes="32x18" type="image/png" />
+      <link rel="icon" href="/img/logo192x110.png" sizes="192x110" type="image/png" />
+      <link rel="icon" href="/img/logo512x293.png" si type="image/png" />
       <link rel="icon" href="/img/logo.png" type="image/png" />
+      <link rel="icon" href="/img/logo.png" type="image/png" />
+
 
         <link rel="preconnect" href="/img/logo.png" />
         <link rel="dns-prefetch" href="https://cdn.sanity.io//" />
@@ -49,7 +55,7 @@ export default function Layout(props) {
       <div
         className={cx(
           props?.fontStyle,
-          "antialiased text-gray-800 dark:bg-black dark:text-gray-400 "
+          "antialiased text-gray-800 dark:bg-black dark:text-gray-400 bg-white "
         )}>
         {props.alternate ? (
           <NavbarAlt {...props} />

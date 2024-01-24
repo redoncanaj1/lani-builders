@@ -179,7 +179,7 @@ export default function Contact({ settings }) {
               {isSubmitting ? (
                 <svg
                   className="w-5 h-5 mx-auto text-white dark:text-black animate-spin"
-                  xmlns="http://www.w3.org/2000/svg"
+              
                   fill="none"
                   viewBox="0 0 24 24">
                   <circle

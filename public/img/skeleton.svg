@@ -1,5 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" role="img" width="500" height="800" aria-labelledby="loading-aria"
-    viewBox="0 0 500 800" preserveAspectRatio="none">
     <title id="loading-aria">Loading...</title>
     <style>
         @media (prefers-color-scheme: dark) {

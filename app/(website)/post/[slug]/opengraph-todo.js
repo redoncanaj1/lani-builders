@@ -1,4 +1,4 @@
-import { ImageResponse } from "@vercel/og";
+
 import { getPostBySlug } from "@/lib/sanity/client";
 import OgImage from "@/components/ogimage";
 
